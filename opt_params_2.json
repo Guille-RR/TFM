@@ -1,0 +1,11 @@
+{"test_size":10,
+"backend":"aer_simulator",
+"experiment_type":"Benchmark",
+"opt_path":"random_unitaries_2q.json",
+"optimizer":{   "name":"cobyla",
+                "maxiter":5,
+                "tol" : 0.01,
+                "strategy":null,
+                "popsize":null},
+"savepath":"./results/",
+"bound":0.01}
